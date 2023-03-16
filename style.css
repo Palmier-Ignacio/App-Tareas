@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background-color: #8a8989;
+}
+
+.cont {
+    display: grid;
+    place-items: center;
+    margin: 30px;
+    width: 500px;
+    background: linear-gradient(#7375f8, #9cffe6);
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(41, 41, 41, 0.5);
+    padding: 10px;
+}
+
+.tarea {
+    background-color: white;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 3fr 0.5fr;
+    place-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+}
+
+.addtarea, .btnBorrar{
+    border: none;
+    background-color: rgba(170, 255, 0, 0.61);
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    height: 40px;
+    width: 40px;
+    font-weight: 700;
+    display: grid;
+    place-items: center;
+    border-radius: 50px;
+}
+
+.addtarea:active {
+    background-color: rgba(155, 196, 73, 0.596);
+}
+
+.addtarea i {
+    font-size: 30px;
+    text-align: center;
+}
+
+input {
+    font-size: 20px;
+    height: 40px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.titulo h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
+
+hr {
+    width: 420px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    border-radius: 5px;
+}
+
+.tareasTitulo {
+    width: 420px;
+    padding: 20px 0px 5px 0px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nueva {
+    background-color: rgba(10, 10, 10, 0.3);
+}
+
+button:hover {
+    cursor: pointer;
+}
+.btnBorrar{
+    background-color: rgba(255, 0, 0, 0.61);
+    font-size: 20px;
+}
+.btnBorrar:active{
+    background-color: rgba(131, 22, 22, 0.61);
+}
+.contTxt{
+    width: 100%;
+}
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
